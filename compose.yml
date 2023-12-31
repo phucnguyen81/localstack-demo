@@ -13,7 +13,7 @@ volumes:
 services:
   localstack:
     container_name: localstack-main
-    image: localstack/localstack
+    image: localstack/localstack:3.0.2
     networks:
       default:
         ipv4_address: 172.50.0.2
