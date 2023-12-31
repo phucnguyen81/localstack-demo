@@ -1,0 +1,7 @@
+- Install python env: `pip install -r requirements.txt`
+  -  This includes `localstack` and `awscli-local` commands
+- Install node env: `npm install`
+  -  This include `serverless`
+- Start localstack: `docker compose up`
+- Deploy the app : `make deploy`
+- Go to `http://localhost:4566/archive-bucket/index.html` to see the app
